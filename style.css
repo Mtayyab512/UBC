@@ -1,0 +1,160 @@
+*{
+
+  font-style: times;
+}
+header{
+  background-color: #f3f3f0;
+  color: #dedce4;
+}
+footer {
+    background-color: #455466;
+    text-decoration: none !important;
+    padding: 50px 50px;
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+  .footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-link-group > div {
+    color: black;
+    font-style: serif;
+    font-size: 24px;
+  }
+  
+  .footer-link-group > a {
+    display: block;
+    color: rgb(204, 203, 203);
+    margin: 5px 0px;
+  }
+  .left-footer-section > a {
+    margin: 0px 5px;
+  }
+ .btn-secondary{
+  display:flex; 
+  justify-content: space-around;
+  
+ }
+ .lower-logo-section{
+  flex-direction: column;
+    align-items: center;
+ }
+/* .rupa{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+  
+  /* sevice page */
+  .card{
+    margin: 4%;
+    background-color: #242729;
+    color: #080808;
+    opacity: 100%;
+  }
+  .card-body{
+    background-color: #85857c;
+  }
+  .our-info{
+    background-color: #ccccc1;
+    border-radius: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  } 
+  .booking-info{
+    background-color: #747470;
+    border-radius: 10%;
+  }
+  .contact-info{
+    /* background-color: #747470;
+    border-radius: 10%; */
+    
+  }
+
+  .services{
+    background-color: #969683;
+     /*background-color: #8a8988;
+    background-image: url('./asase/Blind Barber.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  }
+  .logo , .logo-bottom{
+    height: 8%;
+    width: 8%;
+  }
+
+
+
+  /* aboutus page */
+  .aboutshop{
+    /* width: 100%; */
+    background-color: #ccccc1;
+  }
+
+
+  /* home */
+  .sliderimg{
+    height: 78%;
+    width: 100%;
+  }
+  .banner, .homeservices{
+    background-color: #ccccc1;
+  }
+ 
+
+  /* gallary page */
+  .gallery{
+    background-color: #969683;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* .impro1{
+    
+  } */
+
+  /* testimonials page */
+  .testimonials{
+    background-color: #969683;
+  }
+
+  /* contact us */
+  .contact{
+    background-color: #ccccc1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .form-control{
+    color: #dee2e6;
+    background-color: #495057;
+  }
+   /* booking page */
+   .booking{
+    background-color: #969683;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   }
+
+
+  /* media queries */
+  @media (max-width: 768px){
+    .rupa{
+      display: flex;
+    flex-direction: row-reverse;
+  }
+  .navbar-toggler{
+    position: absolute;
+    top: 1%;
+  }
+  .jack{
+    flex-direction: column;
+  }
+    }
+  
